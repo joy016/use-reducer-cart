@@ -1,0 +1,26 @@
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #615efc;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 1rem 0;
+
+  &__navTitle {
+    font-size: 20px;
+  }
+
+  &__cartContainer {
+    display: flex;
+
+    &__cart {
+      font-size: 25px;
+    }
+    &__badge {
+      top: -13px;
+      position: relative;
+      font-size: 17px;
+    }
+  }
+}
